@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM cruizba/ubuntu-dind
 
 # install basic tools
 RUN apt update && apt install -y vim git wget curl zip python3-pip python3-dev
